@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "cinowallet-recsys_jd464"
+name = "cinowallet-query_rewrite_drift_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出推荐系统算法工程师·查询改写的语义漂移上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://cinowallet.github.io"
-Repository = "https://github.com/cinowallet/recsys_jd464"
-Issues = "https://github.com/cinowallet/recsys_jd464/issues"
+Repository = "https://github.com/cinowallet/query_rewrite_drift_count_trace"
+Issues = "https://github.com/cinowallet/query_rewrite_drift_count_trace/issues"
 
 [project.scripts]
-recsys_jd464 = "recsys_jd464:main"
+query_rewrite_drift_count_trace = "query_rewrite_drift_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["recsys_jd464"]
+py-modules = ["query_rewrite_drift_count_trace"]
